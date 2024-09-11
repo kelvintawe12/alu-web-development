@@ -1,0 +1,134 @@
+body.works_on_smartphone {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Stacks elements vertically on small screens */
+}
+
+article, aside {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+@media (min-width: 600px) {
+    main {
+        flex-direction: row; /* Changes layout back to row for wider screens */
+    }
+
+    article {
+        flex: 2;
+    }
+
+    aside {
+        flex: 1;
+    }
+}
+/* General styling for body, header, main, and footer */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Flexbox layout */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    flex: 2;
+    padding: 20px;
+    border-right: 2px solid #ddd;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the logo */
+.logo {
+    font-size: 24px;
+    margin-right: 20px;
+    color: #4CAF50;
+}
+
+/* Styling the content inside the article */
+article h1 {
+    color: #4CAF50;
+}
+
+article p {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Media query to make the site responsive */
+@media (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+
+    article {
+        border-right: none;
+    }
+}

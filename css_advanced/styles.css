@@ -1,0 +1,236 @@
+/* Main Part */
+.main_part {
+    position: absolute;
+    width: 1440px;
+    height: 1093px;
+    left: 0px;
+    top: 0px;
+}
+
+/* Background */
+.background {
+    position: absolute;
+    width: 1440px;
+    height: 1093px;
+    left: 0px;
+    top: 0px;
+}
+
+/* Mask */
+.mask {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #071629;
+}
+
+/* Object */
+.object {
+    position: absolute;
+    width: 1448.15px;
+    height: 1055px;
+    left: -4.08px;
+    top: -66px;
+}
+
+/* Bitmap */
+.bitmap {
+    position: absolute;
+    left: -0.28%;
+    right: -0.28%;
+    top: -6.04%;
+    bottom: 9.52%;
+    background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.0001) 0%, #071629 100%), #000000;
+    background-blend-mode: normal, color;
+}
+
+/* Get Schooled */
+.get_schooled {
+    position: absolute;
+    height: 151px;
+    left: 26.18%;
+    right: 26.32%;
+    top: calc(50% - 151px/2 - 251px);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 151px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Smiles, Grin, Laugh */
+.smiles, .grin, .laugh {
+    position: absolute;
+    height: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.smiles {
+    left: 41.18%;
+    right: 55.21%;
+    top: calc(50% - 20px/2 - 175.5px);
+}
+
+.grin {
+    left: 48.89%;
+    right: 48.61%;
+    top: calc(50% - 20px/2 - 175.5px);
+}
+
+.laugh {
+    left: 55.35%;
+    right: 41.25%;
+    top: calc(50% - 20px/2 - 175.5px);
+}
+
+/* Button */
+.button {
+    position: absolute;
+    left: 44.38%;
+    right: 44.38%;
+    top: 38.33%;
+    bottom: 57.64%;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+.button_background {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #C271FF;
+    border-radius: 22px;
+}
+
+/* Register for Free */
+.register_for_free {
+    position: absolute;
+    height: 18px;
+    left: 12.35%;
+    right: 12.96%;
+    top: calc(50% - 18px/2);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Learn from the Pros */
+.learn_from_the_pros {
+    position: absolute;
+    height: 40px;
+    left: 41.94%;
+    right: 39.93%;
+    top: calc(50% - 40px/2 + 104.5px);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #C271FF;
+}
+
+/* Pros */
+.pros {
+    position: absolute;
+    width: 1009px;
+    height: 237px;
+    left: 217px;
+    top: 758px;
+}
+
+/* Pro (example) */
+.pro {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+}
+
+.pro_1, .pro_2, .pro_3, .pro_4 {
+    position: absolute;
+    top: 69.35%;
+    bottom: 8.97%;
+}
+
+.pro_1 {
+    left: 15.07%;
+    right: 74.51%;
+}
+
+.pro_2 {
+    left: 35.14%;
+    right: 54.44%;
+}
+
+.pro_3 {
+    left: 54.65%;
+    right: 34.93%;
+}
+
+.pro_4 {
+    left: 74.72%;
+    right: 14.86%;
+}
+
+/* Pro Names and Titles */
+.pro_name, .pro_title {
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pro_name {
+    height: 27px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.pro_title {
+    height: 48px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Avatar Mask */
+.avatar_mask {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 36.71%;
+    background: #FFFFFF;
+}
+
+/* Background Images */
+.background_image {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 36.71%;
+    background: url(Image);
+}
+
